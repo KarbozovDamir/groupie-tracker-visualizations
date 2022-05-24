@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Anton&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Anton&family=Indie+Flower&family=Pacifico&display=swap');
+* {
+    /* margin: 8px;
+    padding: 8px; */
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-family: 'Pacifico', cursive;
+    color: #9f6452
+}
+
+h1 {
+    font-family: 'Pacifico', cursive;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Pacifico', cursive;
+}
+
+a {
+    text-decoration: none;
+    color: #9f6452;
+    font-variant-caps: all-petite-caps;
+}
+
+a:hover {
+    color: #9f6452;
+}
+
+button {
+    background-color: #575049;
+    border-radius: 10px;
+}
+
+button:hover {
+    box-shadow: 0 12px 16px 0 rgb(0, 0, 0);
+    background-color: rgb(180, 173, 154);
+    color: white;
+    /* font-family: 'Anton', sans-serif; */
+}
+
+h3 {
+    font-family: 'Pacifico', cursive;
+    text-align: center;
+    /* background-color:rgb(206, 216, 214); */
+    /* display: block; */
+    /* justify-content: center; */
+    margin: auto;
+    /* height: 50%; */
+    /* width: 100%; */
+    display: flex;
+    justify-content: center;
+}
+
+.label {
+    width: inherit;
+    color: #000000c7;
+    box-sizing: flex;
+}
+
+div>.label {
+    border-top: solid;
+}
+html{
+    margin: 0ch;
+}
+body {
+    margin: 0ch;
+    /* Для старых браузров */
+    background-color: #575049;
+    background-image: linear-gradient(to right, #575049, rgb(180, 173, 154), #575049 800px);
+    background-size: 800px 100%;
+    background-position-x: 50%;
+    background-repeat: no-repeat;
+}
+
+img {
+    border-radius: 10px;
+    margin-bottom: 0px;
+    
+}
+
+
+/* .artistImg {} */
+
+#header {
+    background-color: rgb(180, 173, 154);
+    background: radial-gradient(rgb(180, 173, 154), #575049);
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+    border-width: 2px;
+    border-radius: 5px;
+    padding: 10;
+}
+
+#footer {
+    background-color: whitesmoke;
+    border-style: double;
+    border-color: black;
+    border-width: 5px;
+    padding: 10;
+}
+
+#mainImg {
+    width: 200px;
+    height: 200px;
+    border-style: double;
+    /* border-color: black;
+    border-width: 5px; */
+    border-block: initial;
+    border-radius: 7px;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.container {
+    padding: 2em;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.main {
+    /* height: 100px; */
+    display: inline-block;
+    /* width: 210; */
+    padding: 1em;
+}
+
+.artistPg {
+    width: inherit;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-style: hidden;
+    border-color: black;
+    border-width: 5px;
+}
+
+.artistPg>div.artistInfo {
+    margin: 0.5em;
+    padding: 1em;
+    background-color: rgb(180, 173, 154);
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    border-radius: 5px;
+}
+
+.artistImg {
+    width: 150px;
+    height: 150px;
+    border-style: double;
+    border-color: black;
+    border-width: 5px;
+    border-radius: 15em;
+    border-color: white;
+}
+
+.headerArtist {
+    background-color: whitesmoke;
+    border-style: double;
+    border-color: black;
+    border-width: 5;
+    padding: 10;
+}
+
+#header>#button {
+    position: absolute;
+    font-size: 20pt;
+    font-family: initial;
+    text-decoration: teal;
+    margin-top: inherit;
+    /* background-color:whitesmoke; */
+}
+
+.name {
+    /* background: radial-gradient(rgb(180, 173, 154), rgba(180, 173, 154, 0)); */
+    /* background-color:whitesmoke;
+    border-style: double; */
+    border-color: black;
+    border-width: 5px;
+    align-items: center;
+    text-align: center;
+}
+
+.upper{
+    width: 230px;
+    height: 90px;
+    /* margin-bottom: 0px;
+    padding-bottom: 0px ; */
+}

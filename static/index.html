@@ -1,0 +1,30 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" type="text/css" href="/static/css/style.css" />
+    <title>Groupie-Tracker</title>
+</head>
+<div id="header">
+    <h1 align="center" class="label">Groupie-Tracker</h1>
+</div>
+<div class="container">
+    {{range .}}
+    <a href="/artist/{{.ID}}">
+        <div class="main">
+            <div class="upper">
+                <h2 align="center" class="name label">{{.Name}}</h2>
+            </div>
+            <img align="bottom" src="{{.Image}}" alt="">
+        </div>
+    </a>
+    {{end}}
+</div>
+<div id="footer">
+    <h3 align="left">The project has been implemented by students of "alem.school" captain: @zhangir11 and teammate:
+        @damirkap89</h3>
+</div>
+
+</html>
